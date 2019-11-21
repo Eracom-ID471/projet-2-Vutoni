@@ -1,0 +1,53 @@
+.maj {
+  text-transform : uppercase;
+  margin-left: 10%;
+}
+.text p{
+text-align: center;
+}
+
+.text a {
+  margin-left: 35%;
+}
+
+a {
+  text-decoration:none;
+  color: white;
+}
+
+.rank {
+  margin-left: 20%;
+}
+
+.picture {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin-left: 35%;
+}
+
+.foter {
+  color: black;
+  margin-top: auto;
+  text-align: center;
+}
+
+.titreh1 {
+  padding: 10px;
+  text-align: center;
+  font-size: 350%;
+
+}
+
+.container{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.post{
+  text-align: center;
+}
+body{
+  background: rgb(255,26,132);
+background: linear-gradient(90deg, rgba(255,26,132,1) 0%, rgba(255,0,0,1) 65%);
+}
