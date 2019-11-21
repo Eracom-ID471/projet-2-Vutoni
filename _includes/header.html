@@ -1,3 +1,17 @@
 <header>
-  <h1>Eracom ID471</h1>
+  <div class="background">
+    <div class="container">
+      <div class="Bienvenue"> <h1>Welcome</h1> </div>
+      <div class="Bienvenue2"> <h4>to my</h4> </div>
+      <div class="Bienvenue3"> <h2>Portfolio</h2> </div>
+    </div>
+
+    <div class="grid" id="myHeader">
+      {% for navigation in site.data.global.navigations %}
+        <a href="{{navigation.lien}}">{{navigation.titre}}</a>
+      {% endfor %}
+      <!-- <a href="#projet_photos">projets</a>
+      <a href="#contact">contact</a> -->
+    </div>
+
 </header>
