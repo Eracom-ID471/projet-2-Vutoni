@@ -3,7 +3,7 @@
 {% include head.html %}
   <body>
     {% include header.html %}
-    <img class="picture" src="{{ page.image }}" />
+    <img class="picture" src="{{ page.image | relative_url }}" />
     <h1 class="rank"><i>{{ page.ranking}}</i></h1>
     <div class="post">
     <h1><i>{{ page.title }}</i> / {{ page.in_the_film }}</h1>
