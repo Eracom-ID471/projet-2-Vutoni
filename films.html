@@ -1,0 +1,21 @@
+---
+layout: liste
+---
+<div class="titre">
+  <h1>Top 5 best Miyazaki's Film</h1>
+</div>
+<div class="liens">
+  <h2><a href="{{ 'index.html' | relative_url }}">Home</a>
+      <h2><a href="{{ 'films.html' | relative_url }}">Top 5 best Miyazaki Film</a></h2>
+      <h2><a href="{{ 'girls.html' | relative_url }}">Top 5 beautiful actress</a></h2>
+    </div>
+</div>
+{% for film in site.films %}
+<div class="text">
+  <h1>{{ film.ranking }}.
+  <a class="maj" href="{{film.url | relative_url }}">{{ film.title }}</a>
+  </h1>
+  <img class="picture" src="{{ film.image | relative_url  }}" />
+  <p>{{film.short_description}}"</p>
+</div>
+{% endfor %}

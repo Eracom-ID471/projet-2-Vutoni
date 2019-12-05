@@ -3,7 +3,9 @@ baseurl: "/projet-2-Vutoni" # the subpath of your site, e.g. /blog
 title: "Top 5" # the name of your site, e.g. ACME Corp.
 
 collections:
-  robots:
+  girls:
+    output: true
+  films:
     output: true
 
 plugins:

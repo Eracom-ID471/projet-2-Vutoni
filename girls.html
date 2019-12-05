@@ -1,5 +1,21 @@
 ---
 layout: liste
 ---
-
-<h1>HOMEPAGE</h1>
+<div class="titre">
+  <h1>Top 5 best actress</h1>
+</div>
+<div class="liens">
+  <h2><a href="{{ 'index.html' | relative_url }}">Home</a>
+      <h2><a href="{{ 'girls.html' | relative_url }}">Top 5 beautiful actress</a></h2>
+      <h2><a href="{{ 'films.html' | relative_url }}">Top 5 best Miyazaki Film</a></h2>
+    </div>
+</div>
+{% for girl in site.girls %}
+<div class="text">
+  <h1>{{ girl.ranking }}.
+  <a class="maj" href="{{girl.url | relative_url }}">{{ girl.title }}</a>
+  </h1>
+  <img class="picture" src="{{ girl.image | relative_url  }}" />
+  <p>{{girl.short_description}}"</p>
+</div>
+{% endfor %}

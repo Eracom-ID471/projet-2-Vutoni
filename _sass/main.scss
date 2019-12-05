@@ -50,4 +50,32 @@ a {
 body{
   background: rgb(255,26,132);
 background: linear-gradient(90deg, rgba(255,26,132,1) 0%, rgba(255,0,0,1) 65%);
+font-family: 'Playfair Display', serif;
+}
+body p{
+  margin-left: 30%;
+  margin-right: 30%;
+}
+body h1{
+  margin-left: 15%;
+  margin-right: 35%;
+  text-align: center;
+}
+
+
+.title h1 {
+  text-align: center;
+  padding-top: 10%;
+}
+.liens{
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.liens a {
+}
+
+.titre{
+  text-align: center;
+  padding-top: 10%;
 }
