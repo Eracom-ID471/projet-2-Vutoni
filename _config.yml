@@ -8,3 +8,9 @@ collections:
 
 plugins:
   - jekyll-admin
+
+nav-links:
+  - name: "Top Projet animation 2019"
+    link: "/projets-animation"
+  - name: "Top album rap 2019"
+    link: "/projets-rap-2019"
